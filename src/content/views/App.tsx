@@ -10,12 +10,16 @@ function App() {
     <div className="popup-container">
       {show && (
         <div className={`popup-content ${show ? 'opacity-100' : 'opacity-0'}`}>
-          <h1>HELLO CRXJS</h1>
+          <h6 className={'text-4xl'}>Hello Prashant</h6>
         </div>
       )}
+
+
       <button className="toggle-button" onClick={toggle}>
         <img src={Logo} alt="CRXJS logo" className="button-icon" />
       </button>
+
+
     </div>
   )
 }
